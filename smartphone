@@ -1,0 +1,19 @@
+package day5assignment;
+
+public class smartphone extends androidphone {
+
+	public void connectWhatsApp(){
+		System.out.println("connectWhatsApp");
+		
+	}
+	public static void main(String[] args) {
+		smartphone sphone = new smartphone();
+		sphone.connectWhatsApp();
+		sphone.makecall();
+		sphone.sendMsg();
+		sphone.takevideo();
+		sphone.savecontact();
+
+	}
+
+}
