@@ -1,0 +1,17 @@
+package day5assignment;
+
+public class androidphone extends Mobile {
+
+	public void takevideo () {
+		System.out.println("takevideo");
+	}
+	public static void main(String[] args) {
+		androidphone android = new androidphone();
+		android.takevideo();
+		android.makecall();
+		android.sendMsg();
+		android.savecontact();
+
+	}
+
+}
