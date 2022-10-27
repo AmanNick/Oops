@@ -1,0 +1,15 @@
+package day5assignment;
+
+public class MyPhone extends smartphone {
+
+	public static void main(String[] args) {
+		MyPhone mphone = new MyPhone();
+		mphone.connectWhatsApp();
+		mphone.makecall();
+		mphone.savecontact();
+		mphone.sendMsg();
+		mphone.takevideo();
+
+	}
+
+}
